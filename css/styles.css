@@ -1,0 +1,70 @@
+.myrow{
+    display: flex;
+}
+.image{
+ width: 200px;
+}
+.subtext{
+    background-color: #333333;
+    color: white;
+    position: absolute;
+    right:0px;
+}
+.mybtn{
+    background-color: #333333;
+    width: 80%;
+}
+.add_to_cart{
+    background-color: #333333;
+    border: none;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+hr{
+    border:none;
+    background-color: rgb(234, 250, 11);
+    width: 60px;
+    align-self: center;  
+    font-weight: bold;
+    height: 4px;
+}
+.myrow{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mycol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.mytext{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.myp{
+    line-height: 1px;
+}
+.col_aside{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(223, 219, 219);
+    width: 40px;
+    height: 40px;
+    margin-bottom: 2px;
+    letter-spacing: 1;
+}
+.mystar{
+    background-color: rgb(195, 195, 216);
+    text-align: center;
+    color: #333333;
+    font-size: 19px;
+}
+.mystar svg:hover{
+  color:white;
+}
